@@ -1,0 +1,101 @@
+.NewPhoto {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.photos {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    top: 100px;
+}
+
+.styleSelect {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    top: 50px;
+    justify-content: center;
+}
+
+.style {
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    height: 3.5rem;
+    width: 10rem;
+    position: relative;
+    gap: 1rem;
+    background: rgb(245, 245, 245);
+    border: none;
+}
+
+.style:hover{
+    cursor: pointer;
+    background: rgb(222, 222, 222);
+}
+
+.AddPhoto {
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    height: 20rem;
+    left: 16%;
+    width: 30rem;
+    position: relative;
+    gap: 1rem;
+    background: rgb(245, 245, 245);
+}
+
+.AddPhoto:hover {
+    cursor: pointer;
+    background: rgb(233, 233, 233);
+}
+
+.icon {
+    align-self: center;
+}
+
+.GeneratePhoto {
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 1rem;
+    left: 16%;
+    height: 20rem;
+    width: 30rem;
+    position: relative;
+    background: rgb(245, 245, 245);
+}
+
+.submit {
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    height: 3.5rem;
+    width: 10rem;
+    position: relative;
+    gap: 1rem;
+    background: linear-gradient(98.63deg, #fec534 0%, #FF8A00 100%);
+    border: none;
+    top: 130px;
+    align-self: center;
+}
+
+.submit:hover{
+    cursor: pointer;
+    background: linear-gradient(98.63deg, #fed773 0%, #fdb058 100%);
+}
+
+.wrapper>input {
+    opacity:0;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}

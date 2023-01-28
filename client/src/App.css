@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.blur {
+  position: absolute;
+  width: 25rem;
+  height: 17rem;
+  border-radius: 50%;
+  background: #a1e7f8;
+  filter: blur(72px);
+}
